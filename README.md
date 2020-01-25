@@ -2,7 +2,13 @@
 
 # Description
 
-A test driven experience on MongoDB CURD operations using mongoose and mocha
+A test driven experience on MongoDB CURD operations using mongoose and mocha.
+
+A good walk through of core fundamentals of MongoDB
+
+- Data Modelling and schema designs
+- Handling Relational Data
+- Handling Big collections with pagination
 
 ### Set Up
 
@@ -50,7 +56,11 @@ If not installed follow the below link to install mongodb
             ├── reading_test            # Reading a user record
             └── update_test             # Updating a user record
 
-## Example Schema design approach for associating blogPosts and comments to User
+### Example Schema design approach for associating blogPosts and comments to User
 
 - test/association_test
 - test/middleware_test
+
+### Handling large data collections by pagination
+
+- test/pagination_test
