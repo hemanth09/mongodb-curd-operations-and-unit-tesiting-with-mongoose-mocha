@@ -49,3 +49,8 @@ If not installed follow the below link to install mongodb
             ├── delete_test             # deleting a user record
             ├── reading_test            # Reading a user record
             └── update_test             # Updating a user record
+
+## Example Schema design approach for associating blogPosts and comments to User
+
+- test/association_test
+- test/middleware_test
